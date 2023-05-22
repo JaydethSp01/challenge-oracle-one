@@ -1,0 +1,227 @@
+body{
+    background:  #E5E5E5;
+    font-family: 'Inter';
+}
+.icon {
+    position: absolute;
+    left: 2em;
+    padding: 2em;
+  
+}
+
+.textarea textarea {
+   margin-left: 200px;
+   margin-top:  168px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%;
+   width: 45%;
+   height: 48px;
+   color: #0A3871;
+   resize: none;
+   border: none;
+   outline: none;
+   background:  #E5E5E5;
+}
+.textarea textarea::placeholder{
+    color: #0A3871;
+}
+.botones{
+    margin-top: 370px;
+    margin-left: 200px;
+}
+.texto p{
+    width: 205px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+   
+}
+
+.botones button{
+    display: inline-block;
+}
+.encriptar{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    outline: none;
+    color: #FFFFFF;
+    border: none;
+    transition: 3s all;
+    cursor: pointer;
+}
+.encriptar:hover{
+    margin-right: 20px;
+    background: #2b85f1;
+    color: #000;
+    transform: scale(1.2);
+}
+.desencriptar{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #a7b1bd;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    outline: none;
+    color: #0A3871;
+    border: none;
+    margin-left: 35px;
+    transition: 3s all;
+    cursor: pointer;
+}
+.desencriptar:hover{
+    background: #272d35;
+    color: #FFFFFF;
+    transform: scale(1.2);
+}
+.resultado textarea{
+    float: right;
+    margin-right: 40px;
+    margin-top: -685px;
+    width: 400px;
+    height: 720px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    resize: none;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    pointer-events: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.resultado textarea::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 145%;
+
+}
+.resultado p{
+    float: right;
+    margin-top: -200px;
+    margin-right: -337px;
+    width: 275px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+.resultado img{
+    float: right;
+    margin-top: -530px;
+    margin-right: -377px;  
+}
+.copiar{
+    display: none;
+    padding: 20px;
+    width: 300px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    outline: none;
+    color: #0A3871;
+    float: right;
+    margin-top: -65px;
+    position: relative;
+    left: 354px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    body{
+        height:auto;
+        width: auto;
+    }
+    .textarea textarea{
+        width: auto;
+        margin-left: 2em;
+    }
+    .texto p{
+        margin-left: -10em;
+        font-size: 1em;
+        width: 16em;
+    }
+    .botones button{
+        display: block;
+        margin-top: 2em;
+        margin-left: -10em ;
+    }
+    .resultado{
+        position: relative;
+        left: 270px;
+        top: 750px;
+        
+    }
+    .resultado textarea{
+        float: left;
+        width: 15em;
+        height: auto;
+        margin-left: -11em;
+    }
+    .resultado textarea::placeholder{
+        padding-top: 7em;
+    }
+    .copiar{
+        position: absolute;
+        top: auto;
+        left: -13em;
+        z-index: 1
+    }
+    .resultado p{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin-left: -220px;
+        margin-top: -26em;
+    }
+    .resultado img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas, como tabletas */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Estilos para pantallas más grandes, como computadoras de escritorio */
+}
