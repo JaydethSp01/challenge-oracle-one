@@ -1,3 +1,4 @@
+//dinamismo del Dom
 document.addEventListener('DOMContentLoaded', function(){
     var texto_textarea = document.getElementById('texto');
     var boton_encriptar = document.getElementById('encriptar');
